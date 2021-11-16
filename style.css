@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500&family=Merriweather&display=swap');
+
+*, *::before, *::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background: url(images/background-usplash.jpg) no-repeat center center/cover;
+    text-align: center;
+}
+
+/* Font Families */
+body, p, input, button, h2 {
+    font-family: 'Barlow', sans-serif;
+    text-align: center;
+}
+
+main {
+    max-width: 350px;
+    background-color: #fff;
+    padding: 3rem;
+    border-radius: 10px;
+    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-family: 'Merriweather', serif;
+    font-size: 36px;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    font-size: 16px;
+    line-height: 1.5rem;
+}
+
+strong {
+    color: #37BC9B;
+}
+
+p {
+    font-weight: 400;
+    line-height: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+input {
+    width: 100%;
+    border-style: none;
+    background-color: lightgray;
+    border-radius: 5px;
+    padding: 1rem;
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+button {
+    width: 100%;
+    padding: 1rem;
+    border-style: none;
+    font-weight: 700;
+    color: #fff;
+    background-color: #37BC9B;
+    margin-bottom: 1.5rem;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #48CFAD
+}
+
+img {
+    width: 70px;
+    margin-top: 1.5rem;
+}
